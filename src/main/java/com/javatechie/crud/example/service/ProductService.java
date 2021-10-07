@@ -44,6 +44,7 @@ public class ProductService {
         existingProduct.setQuantity(product.getQuantity());
         existingProduct.setPrice(product.getPrice());
         // коммент
+        // второй комминт из другой ветки
         return productRepository.save(existingProduct);
     }
 }
